@@ -40,8 +40,7 @@ function three () {
 // CREATE FUNCTION four HERE
 function four () {
   var four = document.getElementById('four')
-  four.addEventListener('mouseenter', makeBlue)
-  four.addEventListener('mouseleave', makeWhite)
+  four.addEventListener('click', makeGreen)
 }
 // Changes the background color of event's target
 function makeBlue (evt) {
